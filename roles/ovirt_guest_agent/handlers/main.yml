@@ -1,0 +1,7 @@
+---
+# handlers file for ovirt_guest_agent
+
+  - name: start and enable guest agent
+    systemd:
+      name: "{{ guest_services }}"
+      enabled: yes 

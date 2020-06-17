@@ -1,0 +1,15 @@
+---
+# tasks file for idm_join
+
+  - name: Open the ports to talk to IDM
+    firewalld:
+      ports: "{{ idm_ports }}"
+      state: present
+
+  - name: install the required IDM rpm's
+    yum:
+      state: present
+      name: "{{ idm_rpms }}"
+
+  - name: Register VM to IDM
+    command: "ipa-client-install --domain={{ idm_domain }} --server={{ idm_fqdn }} --realm={{ idm_realm }} --fixed-primary -w {{ idm_admin_passw }} -U

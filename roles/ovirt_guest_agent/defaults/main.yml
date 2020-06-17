@@ -1,0 +1,6 @@
+---
+# defaults file for ovirt_guest_agent
+
+guest_services:
+  - ovirt-guest-agent.service
+  - qemu-guest-agent.service

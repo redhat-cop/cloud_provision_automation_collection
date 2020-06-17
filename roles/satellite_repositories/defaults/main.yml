@@ -1,0 +1,8 @@
+---
+# defaults file for satellite_repositories
+
+repository:
+  - rhel-7-server-rpms
+  - jws-5-for-rhel-7-server-rpms
+  - jb-coreservices-1-for-rhel-7-server-rpms
+repository_state: enabled

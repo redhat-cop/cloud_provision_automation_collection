@@ -1,0 +1,8 @@
+---
+# tasks file for ovirt_guest_agent
+
+  - name: Install the Guest Agent
+    yum:
+      name: ovirt-guest-agent-common
+      state: installed
+    notify: start and enable guest agent

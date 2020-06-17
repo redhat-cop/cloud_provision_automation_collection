@@ -1,0 +1,7 @@
+---
+# tasks file for satellite_repositories
+
+  - name: Subscribe to the RH/Satellite repository
+    rhsm_repository:
+      name: "{{ repository }}"
+      state: "{{ repository_state }}"
