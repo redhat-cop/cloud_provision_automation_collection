@@ -26,5 +26,10 @@
          ovirt_auth: "{{ ovirt_auth }}"
        tags:
          - always
-
+           
+ - name: configure host
+   hosts: ovirt_vms
+   roles:
+     - satellite_register
+     - update_reboot
 
