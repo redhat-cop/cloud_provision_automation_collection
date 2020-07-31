@@ -13,5 +13,5 @@
       org_id: "{{ subscription_organization }}"
       #autosubscribe: true
       force_register: true
-      pool: "{{ sub_pool }}"
+      #pool: "{{ sub_pool }}"
 
