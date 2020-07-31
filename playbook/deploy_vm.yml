@@ -28,7 +28,7 @@
          - always
            
  - name: configure host
-   hosts: ovirt_vms
+   hosts: ovirt_vm
    roles:
      - satellite_register
      - update_reboot
