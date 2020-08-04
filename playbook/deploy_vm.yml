@@ -28,7 +28,8 @@
          - always
            
  - name: configure host
-   hosts: "{{ ansible_default_ipv4.address }}"
+   hosts: "{{ vms.cloud_init.nic_ip_address }}"
+   #"{{ ansible_default_ipv4.address }}"
    #ovirt_vm
    roles:
      - satellite_register
