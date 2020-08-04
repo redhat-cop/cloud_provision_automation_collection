@@ -28,7 +28,8 @@
          - always
            
  - name: configure host
-   hosts: ovirt_vm
+   hosts: "{{ ansible_default_ipv4.address }}"
+   #ovirt_vm
    roles:
      - satellite_register
      - update_reboot
