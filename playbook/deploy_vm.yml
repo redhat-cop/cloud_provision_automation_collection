@@ -28,7 +28,7 @@
          - always
            
  - name: configure host
-   hosts: "{{ vms.cloud_init.nic_ip_address }}"
+   hosts: 10.1.196.149
    #"{{ ansible_default_ipv4.address }}"
    #ovirt_vm
    roles:
