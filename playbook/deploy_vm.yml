@@ -29,8 +29,6 @@
            
  - name: configure host
    hosts: all
-   become: true
-   become_user: root
    #"{{ ansible_default_ipv4.address }}"
    #ovirt_vm
    roles:
