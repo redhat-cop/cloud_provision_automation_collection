@@ -28,7 +28,7 @@
          - always
            
  - name: configure host
-   hosts: 10.1.196.149
+   hosts: allS
    #"{{ ansible_default_ipv4.address }}"
    #ovirt_vm
    roles:
