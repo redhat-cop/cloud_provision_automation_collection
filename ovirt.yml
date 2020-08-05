@@ -1,4 +1,4 @@
----
+
 
 plugin: ovirt.ovirt.ovirt
 ovirt_url: "{{ engine_fqdn }}"
