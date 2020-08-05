@@ -1,4 +1,5 @@
----
 
-collections:
-  - ovirt.ovirt.ovirt
+#---
+
+#collections:
+#  - ovirt.ovirt.ovirt

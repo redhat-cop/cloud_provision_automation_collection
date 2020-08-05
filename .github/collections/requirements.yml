@@ -1,5 +1,0 @@
----
-collections:
-- name: ovirt.ovirt
-- name: ovirt.vm-infra
-- name: freeipa
