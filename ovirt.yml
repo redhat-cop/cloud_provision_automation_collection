@@ -1,6 +1,6 @@
 
 
-plugin: ovirt
+plugin: ovirt.ovirt.ovirt
 ovirt_url: "{{ engine_fqdn }}"
 ovirt_cafile: "{{ engine_cafile | default(omit) }}"
 ovirt_username: "{{ engine_user }}"
