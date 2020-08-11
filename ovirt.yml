@@ -1,8 +1,8 @@
 
 
 plugin: ovirt.ovirt.ovirt
-ovirt_url: "{{ engine_fqdn }}"
-ovirt_cafile: "{{ engine_cafile }}"
-ovirt_username: "{{ engine_user }}"
-ovirt_password: "{{ engine_password }}"
+ovirt_url: "{{ OVIRT_URL }}"
+#ovirt_cafile: "{{ engine_cafile }}"
+ovirt_username: "{{ OVIRT_USERNAME }}"
+ovirt_password: "{{ OVIRT_PASSWORD }}"
 ovirt_insecure: 'false'
