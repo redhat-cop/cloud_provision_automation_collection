@@ -1,0 +1,8 @@
+---
+ 
+ - name: configure host
+   hosts: all
+   roles:
+     - satellite_register
+     - update_reboot
+
